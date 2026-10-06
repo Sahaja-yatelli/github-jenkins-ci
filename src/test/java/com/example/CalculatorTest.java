@@ -21,4 +21,8 @@ class CalculatorTest {
     void testMultiplication() {
         assertEquals(20, calculator.multiply(4, 5));
     }
+    @Test
+    void testDivision() {
+    assertEquals(5, calculator.divide(10, 2));
+    }
 }
