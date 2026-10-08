@@ -25,4 +25,8 @@ class CalculatorTest {
     void testDivision() {
     assertEquals(5, calculator.divide(10, 2));
     }
+    @Test
+    void testModulus() {
+    assertEquals(1, calculator.divide(10, 10));
+    }
 }
